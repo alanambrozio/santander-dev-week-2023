@@ -7,3 +7,10 @@ spring:
     open-in-view: false
     hibernate:
       ddl-auto: validate
+
+  logging:
+    level:
+      root: INFO
+      org.springframework.web: DEBUG
+      org.springdoc: DEBUG
+      me.dio: DEBUG
